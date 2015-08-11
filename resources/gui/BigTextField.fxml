@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<StackPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="40.0" prefWidth="210.0"
+           xmlns="http://javafx.com/javafx/8">
+    <children>
+        <Rectangle fx:id="bottomRectangle" arcHeight="20.0" arcWidth="20.0" fill="WHITE"
+                   focusTraversable="false" height="40.0" stroke="#8a8a8a" strokeLineCap="ROUND"
+                   strokeLineJoin="ROUND" strokeType="INSIDE" width="210.0"/>
+        <TextField fx:id="textField" focusTraversable="false" maxHeight="40.0" maxWidth="210.0"
+                   style="-fx-background-color: transparent; -fx-background-insets: 0; -fx-focus-color: transparent;">
+            <font>
+                <Font name="Segoe UI Light" size="16.0"/>
+            </font>
+            <padding>
+                <Insets left="15.0" right="15.0"/>
+            </padding>
+        </TextField>
+    </children>
+</StackPane>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="cardsagainsthuemanatee:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/cardsagainsthuemanatee_jar</output-path>
+    <root id="archive" name="cardsagainsthuemanatee.jar">
+      <element id="module-output" name="cardsagainsthuemanatee" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER" maxHeight="-Infinity"
+      maxWidth="-Infinity"
+      minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="810.0"
+      xmlns="http://javafx.com/javafx/8">
+    <children>
+        <VBox fx:id="imageBox" alignment="CENTER"/>
+        <VBox fx:id="actionArea" alignment="CENTER" spacing="20.0">
+            <VBox.margin>
+                <Insets top="50.0"/>
+            </VBox.margin>
+            <children>
+                <StackPane fx:id="inputFieldBox"/>
+            </children>
+        </VBox>
+    </children>
+</VBox>
